@@ -1,0 +1,8 @@
+---
+- name: Download dotfiles
+  git:
+    repo: "{{ dotfiles_github_repo }}"
+    dest: "{{ dest }}"
+    update: "{{ 'yes' if dotfiles_keep_updated else 'no' }}"
+    force: no
+  ignore_errors: yes

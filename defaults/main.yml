@@ -1,0 +1,4 @@
+---
+dotfiles_dest: ~/.dotfiles
+dotfiles_github_repo: https://github.com/dirn/dotfiles.git
+dotfiles_keep_updated: false

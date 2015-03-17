@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - role: ansible-dotfiles
+      dotfiles_github_repo: https://github.com/dirn/dotfiles.git
